@@ -23,46 +23,46 @@ openapiOptions:
     #       "400":
     #         description: "Returned when given currency pair is not exists"
   message:
-    - message: bank.CurrentBalanceRequest
-      option:
-        json_schema:
-          description: "Description for CurrentBalanceRequest"
-    - message: bank.CurrentBalanceResponse
-      option:
-        json_schema:
-          description: "Description for CurrentBalanceResponse"
-    - message: bank.ExchangeRateRequest
-      option:
-        json_schema:
-          description: "Description for ExchangeRateRequest"
+    # - message: bank.CurrentBalanceRequest
+    #   option:
+    #     json_schema:
+    #       description: "Description for CurrentBalanceRequest"
+    # - message: bank.CurrentBalanceResponse
+    #   option:
+    #     json_schema:
+    #       description: "Description for CurrentBalanceResponse"
+    # - message: bank.ExchangeRateRequest
+    #   option:
+    #     json_schema:
+    #       description: "Description for ExchangeRateRequest"
   field:
-    - field: bank.CurrentBalanceRequest.account_number
-      option:
-        description: "Account number to get the balance"
-    - field: bank.CurrentBalanceResponse.amount
-      option:
-        description: "Account's current balance"
-        example: "2593"
-    - field: bank.CurrentBalanceResponse.current_date
-      option:
-        description: "Current date"
-    - field: bank.ExchangeRateRequest.from_currency
-      option:
-        description: "Exchange rate from currency"
-    - field: bank.ExchangeRateRequest.to_currency
-      option:
-        description: "Exchange rate to currency"
-    - field: bank.ExchangeRateResponse.from_currency
-      option:
-        description: "Exchange rate from currency"
-        example: "\"USD\""
-    - field: bank.ExchangeRateResponse.to_currency
-      option:
-        description: "Exchange rate to currency"
-        example: "\"IDR\""
-    - field: bank.ExchangeRateResponse.rate
-      option:
-        description: "Exchange rate at particular timestamp"
-    - field: bank.ExchangeRateResponse.timestamp
-      option:
-        description: "Current timestamp"
+    # - field: bank.CurrentBalanceRequest.account_number
+    #   option:
+    #     description: "Account number to get the balance"
+    # - field: bank.CurrentBalanceResponse.amount
+    #   option:
+    #     description: "Account's current balance"
+    #     example: "2593"
+    # - field: bank.CurrentBalanceResponse.current_date
+    #   option:
+    #     description: "Current date"
+    # - field: bank.ExchangeRateRequest.from_currency
+    #   option:
+    #     description: "Exchange rate from currency"
+    # - field: bank.ExchangeRateRequest.to_currency
+    #   option:
+    #     description: "Exchange rate to currency"
+    # - field: bank.ExchangeRateResponse.from_currency
+    #   option:
+    #     description: "Exchange rate from currency"
+    #     example: "\"USD\""
+    # - field: bank.ExchangeRateResponse.to_currency
+    #   option:
+    #     description: "Exchange rate to currency"
+    #     example: "\"IDR\""
+    # - field: bank.ExchangeRateResponse.rate
+    #   option:
+    #     description: "Exchange rate at particular timestamp"
+    # - field: bank.ExchangeRateResponse.timestamp
+    #   option:
+    #     description: "Current timestamp"
