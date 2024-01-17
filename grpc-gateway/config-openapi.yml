@@ -4,24 +4,24 @@ openapiOptions:
       option:      
         description: "Documentation for bank service"
   method:
-    - method: bank.BankService.GetCurrentBalance
-      option:
-        summary: "Summary for GetCurrentBalance"
-        description: "Description for GetCurrentBalance"
-        responses:
-          "200":
-            description: "Return current account balance"
-          "400":
-            description: "Returned when given account number is not exists"
-    - method: bank.BankService.FetchExchangeRates
-      option:
-        summary: "Summary for FetchExchangeRates"
-        description: "Description for FetchExchangeRates"
-        responses:
-          "200":
-            description: "Stream exchange rate for given currency pair"
-          "400":
-            description: "Returned when given currency pair is not exists"
+    # - method: bank.BankService.GetCurrentBalance
+    #   option:
+    #     summary: "Summary for GetCurrentBalance"
+    #     description: "Description for GetCurrentBalance"
+    #     responses:
+    #       "200":
+    #         description: "Return current account balance"
+    #       "400":
+    #         description: "Returned when given account number is not exists"
+    # - method: bank.BankService.FetchExchangeRates
+    #   option:
+    #     summary: "Summary for FetchExchangeRates"
+    #     description: "Description for FetchExchangeRates"
+    #     responses:
+    #       "200":
+    #         description: "Stream exchange rate for given currency pair"
+    #       "400":
+    #         description: "Returned when given currency pair is not exists"
   message:
     - message: bank.CurrentBalanceRequest
       option:
