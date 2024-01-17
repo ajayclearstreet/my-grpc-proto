@@ -1,8 +1,8 @@
 openapiOptions:
   service:
-    - service: bank.BankService
-      option:      
-        description: "Documentation for bank service"
+    # - service: bank.BankService
+    #   option:      
+    #     description: "Documentation for bank service"
   method:
     # - method: bank.BankService.GetCurrentBalance
     #   option:
